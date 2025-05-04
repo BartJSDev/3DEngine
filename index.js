@@ -150,7 +150,7 @@ addEventListener("mousemove", function (e) {
 
     let dx = mouse.x - center.x 
     let dy = mouse.y - center.y 
-    angleY = Math.atan2(dy,dy) * .02
+    angleY = Math.atan2(dy,dx) * .02
     angleX = Math.atan2(dy,dx) * .02
 
 })
@@ -165,6 +165,6 @@ canvas.addEventListener("touchmove", function (e) {
 
     let dx = x - center.x 
     let dy = y - center.y 
-    angleY = Math.atan2(dy,dy) * .02
+    angleY = Math.atan2(dy,dx) * .02
     angleX = Math.atan2(dy,dx) * .02
 })
