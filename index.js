@@ -20,7 +20,7 @@ if (window.innerWidth > 768) {
     ballsize = 150
     offset = 150
     fl = 500
-    step = 1
+    step = 2
     ballcolor = "blue"
 
 }else{
