@@ -17,10 +17,10 @@ if (window.innerWidth > 768) {
 
     center.x = canvas.width/2
     center.y = canvas.height/2
-    ballsize = 150
-    offset = 150
+    ballsize = 100
+    offset = 100
     fl = 500
-    step = 2
+    step = 1
     ballcolor = "blue"
 
 }else{
@@ -31,7 +31,7 @@ if (window.innerWidth > 768) {
     ballsize = 100
     offset = 100
     fl = 300
-    step = 2
+    step = 1
     ballcolor = "red"
 }
 
@@ -150,8 +150,8 @@ addEventListener("mousemove", function (e) {
 
     let dx = mouse.x - center.x 
     let dy = mouse.y - center.y 
-    angleY = Math.atan2(dy,dx) * .02
-    angleX = Math.atan2(dy,dx) * .02
+    angleY = dy * .0002
+    angleX = dx * .0002
 
 })
 
@@ -165,6 +165,6 @@ canvas.addEventListener("touchmove", function (e) {
 
     let dx = x - center.x 
     let dy = y - center.y 
-    angleY = Math.atan2(dy,dx) * .02
-    angleX = Math.atan2(dy,dx) * .02
+    angleY = dy * .0002
+    angleX = dx * .0002
 })
