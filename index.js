@@ -30,7 +30,7 @@ if (window.innerWidth > 768) {
 
     ballsize = 100
     offset = 100
-    fl = 300
+    fl = 250
     step = 1
     ballcolor = "red"
 }
