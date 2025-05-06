@@ -26,5 +26,4 @@ class Ball {
         c.closePath()
 
     }
-
 }
