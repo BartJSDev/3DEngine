@@ -10,7 +10,7 @@ let mouse = { x: 0, y: 0 }
 
 if (window.innerWidth > 768) {
 
-    engine3D.color = "blue"
+    engine3D.color = "yellow"
     engine3D.Create()
 
 } else {
